@@ -8,7 +8,7 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface Interfaces {
-    @GET("mahasiswa.php")
+    @GET("mahasiswa")
     Call<List<GetMahasiswa>> getMahasiswa();
 
 }
